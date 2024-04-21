@@ -1,0 +1,13 @@
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    height: 5rem;
+    background-color: #09121b;
+    box-shadow: 0px 2px 10px black;
+}
+
+header img {
+    height: 100%;
+    margin-left: 2rem;
+}
