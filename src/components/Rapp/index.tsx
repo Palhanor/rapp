@@ -83,7 +83,7 @@ export default function Rapp() {
         return palavrasQuebradas;
     };
 
-    const botaoBeatSelecionado = (beat) => {
+    const botaoBeatSelecionado = (beat: any[]) => {
         if (!comecou) {
             selecionarBeat(beat[1])
             setBeatSelecionado(beat[0])
